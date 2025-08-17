@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Appointment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-content">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <span>Fivoo</span>
+                    </a>
+                </div>
+
+                <div class="nav-links">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#services">Services</a>
+                    <a href="index.html#about">About Us</a>
+                    <a href="index.html#contact">Contact</a>
+                    <a href="appointment.html" class="nav-button">Book an Appointment</a>
+                </div>
+                <button class="mobile-menu-toggle" id="mobile-menu-button" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="form-container">
+            <div class="form-box">
+                <h1>Book Your Appointment</h1>
+                <p>
+                    Please fill out the form below to request an appointment. Our staff will contact you to confirm the time and date.
+                </p>
+
+                <form action="#" method="POST" class="form">
+                    <div class="form-field">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" name="full-name" id="full-name" autocomplete="name" required class="form-input">
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="email">Email address</label>
+                            <input type="email" name="email" id="email" autocomplete="email" required class="form-input">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="phone" id="phone" autocomplete="tel" required class="form-input">
+                        </div>
+                    </div>
+
+                    <div class="form-grid">
+                        <div class="form-field">
+                            <label for="appointment-date">Preferred Date</label>
+                            <input type="date" name="appointment-date" id="appointment-date" required class="form-input">
+                        </div>
+                        <div class="form-field">
+                            <label for="appointment-time">Preferred Time</label>
+                            <select id="appointment-time" name="appointment-time" required class="form-input">
+                                <option value="" disabled selected>Select a time</option>
+                                <option>8:00 AM - 9:00 AM</option>
+                                <option>9:00 AM - 10:00 AM</option>
+                                <option>10:00 AM - 11:00 AM</option>
+                                <option>11:00 AM - 12:00 PM</option>
+                                <option>1:00 PM - 2:00 PM</option>
+                                <option>2:00 PM - 3:00 PM</option>
+                                <option>3:00 PM - 4:00 PM</option>
+                                <option>4:00 PM - 5:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-field">
+                        <label for="reason">Reason for Visit</label>
+                        <textarea id="reason" name="reason" rows="4" class="form-input" placeholder="e.g., Routine check-up, teeth cleaning, cosmetic consultation..."></textarea>
+                    </div>
+
+                    <div class="form-field">
+                        <button type="submit" class="form-button">
+                            Submit Appointment Request
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+<footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <a href="#" class="logo footer-logo">
+           <img src="footer-logo.png" alt="Fivoo Logo" class="logo-img">
+          </a>
+          <p>Crafting innovative tech solutions for a digital world.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#services">General Dentistry</a></li>
+            <li><a href="#services">Cosmetic Dentistry</a></li>
+            <li><a href="#services">Orthodontics</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="mailto:fivoo.co@gmail.com">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Follow Us On</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">&copy; 2025 Fivoo Dental Clinic All rights reserved.</div>
+    </div>
+  </footer>
+ <script src="app.js"></script>
+</body>
+</html>

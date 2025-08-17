@@ -1,0 +1,571 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f9fafb;
+    color: #374151;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+.nav {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.nav-logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2563eb;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: none;
+}
+
+.nav-links a {
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    color: #2563eb;
+    background-color: #f3f4f6;
+}
+
+.nav-button {
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    background-color: #2563eb;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin-left: 1rem;
+}
+
+.nav-button:hover {
+    background-color: #1d4ed8;
+}
+
+.hero-section {
+    position: relative;
+    color: #fff;
+    padding: 5rem 0;
+    overflow: hidden;
+    text-align: center;
+    background-image: url(bg\ pic.png);
+    background-size: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 42rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.025em;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #2563eb;
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #f3f4f6;
+}
+
+
+.services-section {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.section-header h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.section-header p {
+    font-size: 1.125rem;
+    color: #4b5563;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background-color: #f9fafb;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.service-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #dbeafe;
+    color: #2563eb;
+    border-radius: 9999px;
+    margin-bottom: 1rem;
+}
+
+.service-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.service-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.service-card p {
+    color: #4b5563;
+}
+
+.about-section {
+    padding: 5rem 0;
+    background-color: #f3f4f6;
+}
+
+.about-content-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+}
+
+.about-text h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.about-text p {
+    font-size: 1.125rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+}
+
+.about-image-container img {
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    height: auto;
+}
+
+.contact-section {
+    padding: 5rem 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    background-color: #2563eb;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #1d4ed8;
+}
+
+.footer {
+    background-color: #1d4ed8;
+    color: #d1d5db;
+    padding: 3rem 0;
+}
+
+footer {
+  background: #1d4ed8;
+  padding: 40px 20px;
+  color: #9ca3af;
+}
+
+.footer-logo img{
+    height: 100px;
+    width: 100px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-section a {
+    color: #9ca3af;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+.footer-section a:hover {
+  color: #fff;
+}
+
+.footer-section .social-icons {
+  display: flex; 
+  flex-direction: row;
+  gap: 15px; 
+  justify-content: flex-start; 
+  align-items: center;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #374151;
+  padding-top: 10px;
+}
+
+.form-container {
+    max-width: 32rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+    background-image: url(bg\ pic.png);
+    background-size: cover;
+}
+
+.form-box {
+    background-color: transparent;
+    padding: 2rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.form-box h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.form-box p {
+    text-align: center;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-field label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 0.625rem 1rem;
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db;
+    background-color: #f9fafb;
+    color: #374151;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-input:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.5);
+}
+
+.form-button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    background-color: #2563eb;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #1d4ed8;
+}
+
+/* ======================================================================
+   Responsive Design for smaller screens (Mobile)
+   ====================================================================== */
+
+/* Styles for screens smaller than 768px (e.g., mobile phones) */
+@media (max-width: 768px) {
+    /* Hide the full navigation links on small screens */
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 4rem; /* Below the header */
+        left: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* Show the navigation links when the 'active' class is added */
+    .nav-links.active {
+        display: flex;
+    }
+
+    /* Style for individual links in the mobile menu */
+    .nav-links a {
+        padding: 1rem;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* Show the mobile menu toggle button (hamburger icon) */
+    .mobile-menu-toggle {
+        display: block;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: #2563eb;
+    }
+    
+    /* Hero section adjustments */
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    /* Services section adjustments */
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* About section adjustments */
+    .about-section .container {
+        flex-direction: column;
+    }
+
+    .about-text,
+    .about-image-container {
+        width: 100%;
+    }
+
+    .about-image-container {
+        margin-top: 2rem;
+    }
+
+    .about-text h2 {
+        text-align: center;
+    }
+
+    /* Footer section adjustments */
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Center text and social icons in the footer on mobile */
+    .footer-section h3 {
+        text-align: center;
+    }
+
+    .footer-section .social-icons {
+        justify-content: center;
+    }
+
+    .footer-section p, 
+    .footer-section ul {
+        text-align: center;
+    }
+    
+    /* Center the first footer section (containing the logo and text) on mobile */
+    .footer-section:first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* ======================================================================
+   Responsive Design for Tablet and Desktop
+   ====================================================================== */
+
+/* Styles for screens wider than 768px (e.g., tablets and desktops) */
+@media (min-width: 769px) {
+    /* Always show the full navigation links on larger screens */
+    .nav-links {
+        display: flex;
+    }
+
+    /* Hide the mobile menu toggle button on larger screens */
+    .mobile-menu-toggle {
+        display: none;
+    }
+
+    /* Services section adjustments for larger screens */
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    /* About section adjustments for larger screens */
+    .about-section .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .about-text {
+        flex: 1;
+    }
+
+    .about-image-container {
+        flex: 1;
+        max-width: 50%; /* Optional, to control size */
+    }
+
+    .about-text h2 {
+        text-align: left;
+    }
+
+
+    /* Align footer items to the start (left) on larger screens */
+    .footer-section h3,
+    .footer-section p,
+    .footer-section ul {
+        text-align: left;
+    }
+
+    /* Adjust social icons to align left on larger screens */
+    .footer-section .social-icons {
+        justify-content: flex-start;
+    }
+}
