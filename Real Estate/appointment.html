@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book an Appointment - Fivoo</title>
+    <meta name="description" content="Book a tour or consultation for your dream property with Fivoo.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo">Fivoo</a>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="index.html#property-listings">Property</a>
+                <a href="index.html#about-us">About</a>
+                <a href="index.html#our-societies">Societies</a>
+                <a href="appointment.html" class="nav-button">Book an Appointment</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="real-estate-form-container">
+            <h2>Book a Tour</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="property-type">Property Type</label>
+                    <select id="property-type" name="property-type" required>
+                        <option value="" disabled selected>Select a property type</option>
+                        <option value="villa">Villa</option>
+                        <option value="house">House</option>
+                        <option value="apartment">Apartment</option>
+                        <option value="land">Land</option>
+                    </select>
+                </div>
+                <button type="submit" class="form-submit-button">Submit</button>
+            </form>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section footer-intro">
+                    <a href="index.html" class="logo footer-logo">
+                        <img src="footer-logo1.png" alt="Fivoo Logo" class="logo-img">
+                    </a>
+                    <p>Crafting innovative tech solutions for a digital world.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="index.html#property-listings">Property</a></li>
+                        <li><a href="index.html#our-societies">Societies</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="index.html#about-us">About</a></li>
+                        <li><a href="mailto:fivoo.co@gmail.com">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us On</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">&copy; 2025 Fivoo Properties Limited All rights reserved.</div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
