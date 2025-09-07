@@ -1,4 +1,4 @@
-Fivoo Web Development 🌐
+🌐 Fivoo Web Development 
 Building modern, elegant, and powerful web experiences.
 Welcome to the official repository for Fivoo, a collective of passionate web development experts dedicated to bringing your digital vision to life. This space showcases a curated selection of our work, highlighting our expertise across a range of industries and technologies.
 
@@ -34,4 +34,5 @@ Website: https://www.fivoo.site
 Email: fivoo.co@gmai.com
 
 License 📄
+The code in this repository is proprietary and for demonstration purposes only. It is not licensed for public use or distribution without explicit permission from Fivoo Web Development.
 The code in this repository is proprietary and for demonstration purposes only. It is not licensed for public use or distribution without explicit permission from Fivoo Web Development.
